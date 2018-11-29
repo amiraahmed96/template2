@@ -1,0 +1,591 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+     margin: 0;
+    padding: 0;
+}
+/*Start nav-bar*/
+.nav-bar
+{
+    position: relative;
+    height: 80px;
+    width: 100%;
+}
+.lines
+    {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        font-size: 30px;
+    }
+.nav-bar h2
+{
+    margin-left: 30px;
+}
+.nav-bar h2 span
+{
+    color: goldenrod;
+}
+.nav-bar ul
+{
+    list-style-type: none;
+    width: 70%;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+}
+.nav-bar ul li
+{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 90px;
+    text-align: center;
+}
+.nav-bar ul li:hover
+{
+    background: goldenrod; 
+   transition: all 0.5s ease-in;
+}
+.nav-bar ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar ul li ul
+{
+    position: absolute;
+    top: 50px;
+    right: 344px;
+    width: 150px;
+    clear: both;
+    background-color: black;
+    display: none;
+    z-index: 1;
+    
+}.nav-bar ul li ul.product
+{
+    right: 455px;
+}
+.nav-bar ul li:hover ul
+{
+    display: block;
+}
+.nav-bar ul li ul li:hover 
+{
+  background-color: black;
+}
+.nav-bar ul li ul a
+{
+    color: white;
+}
+.nav-bar ul li ul a:hover
+{
+    color: goldenrod;
+}
+/*end nav-bar*/
+
+/*start slide show*/
+.slide-show h3
+{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.slide-show h3:after
+{
+    content: " ";
+    width: 350px;
+    height: 2px;
+    background-color: goldenrod;
+    display: block;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.slide-show button
+{
+    width: 100px;
+    height: 50px;
+    background-color: goldenrod;
+    color: white;
+    margin-right: 0px;
+   
+}
+.slide-show button:hover
+{
+    transform: rotate(-20deg);
+    transition: all 0.5s ease-in-out;
+    background-color: black;
+    color: goldenrod;
+}
+/*end slide show*/
+/*start what we do*/
+.what-do h3
+{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.what-do h3:after
+{
+    content: " ";
+    width: 50px;
+    height: 2px;
+    background-color: goldenrod;
+    display: block;
+    margin-left: 650px;
+    margin-top: 20px;
+}
+.what-do p
+{
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.what-do img
+{
+    background-color: goldenrod;
+    margin-top: 40px;
+}
+.what-do .im
+{
+    text-align: center;
+}
+.what-do .im:hover
+{
+    transform: scale(0.9);
+    transition: all 0.5s ease-in-out;
+}
+.what-do .p1
+{
+    margin-left: 0px;
+    text-align: justify;
+}
+.what-do .im
+{
+    width: 100%;
+    height: 30%;
+    background-color: goldenrod
+}
+.what-do .h2
+{
+    margin-left: 0px;
+    padding-left: 0px;
+    font-size: 25px;
+}
+/*end what we do*/
+
+
+
+.bac
+{
+    background: url(images/bac1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.bac .bac2
+{
+    background-color: rgba(0,0,0,0.6);
+    min-height: 50%;
+    width: 100%;
+}
+.bac .bac2 a
+{
+    text-decoration: none;
+    color: white;
+}
+.bac .bac2 a:hover
+{
+    color: goldenrod;
+}
+.bac .bac2 img.im
+{
+    width: 100%;
+}
+
+/*start section what we made*/
+.what-made 
+{
+    text-align: center;
+}
+.what-made h2
+{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.what-made h2:after
+{
+    content: " ";
+    width: 50px;
+    height: 2px;
+    background-color: goldenrod;
+    display: block;
+    margin-left: 48%;
+    margin-top: 20px;
+}
+.what-made ul
+{
+    list-style-type: none;
+    width: 40%;
+    margin-left: 30%;
+}
+.what-made ul li
+{
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+}
+.what-made ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.what-made ul li:hover
+{
+    background-color: goldenrod;
+    transition: all 0.5s ease-in-out;
+}
+.what-made .im
+{
+    margin-top: 20%;
+}
+.what-made a
+{
+    text-decoration: none;
+    color: black;
+}
+.what-made img
+{
+    transform: scale(1);
+}
+.what-made img:hover
+{
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+.what-made .hov
+{
+    overflow: hidden;
+}
+/*end section what we made*/
+
+
+/*start section our company*/
+.company
+{
+    background: url(images/bac1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 80%;
+    width: 100%;
+}
+.company .company2
+{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    min-height: 80%;
+    width: 100%;
+    text-align: center;
+}
+.company .company2 img
+{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+}
+.company .company2 p
+{
+    width: 60%;
+    margin-left: 20%;
+}
+/*end section our company*/
+/*start like more*/
+.like h2
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.like img
+{
+    transform: scale(1);
+}
+.like .im
+{
+    overflow: hidden;
+}
+.like img:hover
+{
+   transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+/*end like more*/
+
+/*start section desigen*/
+.desigen
+{
+  background: url(images/bac1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 80%;
+    width: 100%;   
+}
+.desigen .desigen2
+{
+    background-color: rgba(0,0,0,0.6);
+    min-height: 80%;
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+}
+.desigen .desigen2 img
+{
+    width: 100%
+}
+.desigen .desigen2 h2
+{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.desigen .desigen2 .col-md-3 ,
+.desigen .desigen2 .col-sm-6
+{
+    background-color: white;
+    margin: 10px;
+    margin-left: 0px;
+    width: 23%;
+    height: 80%
+}
+.desigen .p1
+{
+    color: white
+}
+.desigen .im
+{
+    overflow: hidden;
+}
+.desigen img:hover
+{
+   transform: scale(0.8);
+    transition: all 0.5s ease-in-out;
+}
+.desigen button
+{
+    width: 130px;
+    height: 50px;
+    background-color: goldenrod;
+    color: white;
+    margin: 50px;
+}
+.desigen button:hover
+{
+    background-color: black;
+    transform: rotate(-10deg);
+    transition: all 0.5s ease-in-out;
+}
+/*end section desigen*/
+/*start section galary*/
+.galary img
+{
+    width: 16%;
+    height: 20%;
+    margin-left: 5px;
+    transform: scale(1);
+}
+.galary img:hover
+{
+   transform: scale(0.9);
+    transition: all 0.5s ease-in-out;
+}
+/*end section galary*/
+
+/*start section footer*/
+.footer
+{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-left: 0;
+}
+.app i
+{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.app i:hover
+{
+    color: goldenrod;
+}
+/*end section footer*/
+.active1
+{
+    background-color: goldenrod;
+}
+
+
+
+
+
+
+
+
+                              /*start media quary*/
+
+@media (max-width: 767px) /*mobile & tablite screen*/
+{
+    .nav-bar ul
+    {
+        display: none;
+    }
+    .slide-show h3:after
+    {
+        display: none;
+    }
+    .slide-show button
+    {
+        margin-left: 28%;
+        margin-bottom: 20px;
+    }
+    .slide-show img
+    {
+        width: 100%;
+    }
+    .what-do .im
+{
+    width: 100%;
+    height: 30%;
+    background-color: goldenrod
+}
+    .what-do h2
+    {
+        margin-top: 20%;
+    }
+    .what-made ul
+    {
+        display: none;
+    }
+    .desigen .desigen2 .col-md-3 ,
+.desigen .desigen2 .col-sm-6
+    {
+        width: 40%;
+        margin-left: 30%;
+    }
+    .galary img
+    {
+        width: 30%;
+        margin: 10px;
+    }
+    .footer .col-md-3 
+    {
+        margin-left: 30%;
+        margin-top: 20px;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991px) /*small acreen*/
+{
+    .nav-bar ul
+    {
+        display: none;
+    }
+    
+    .slide-show h3:after
+    {
+        display: none;
+    }
+    .slide-show button
+    {
+        margin-left: 45%;
+        margin-bottom: 20px;
+    }
+    .slide-show img
+    {
+        width: 100%;
+    }
+    .what-do .im
+    {
+    width: 50%;
+    height: 30%;
+    background-color: goldenrod;
+    margin-left: 25%;
+    }
+    .what-do h2
+    {
+        margin-top: 4%;
+        text-align: center;
+    }
+    .what-do .im img
+    {
+        width: 80%;
+        height: 80%;
+        margin-top: 10px;
+    }
+    .what-do .p1
+    {
+        margin-left: 25%;
+    }
+    .footer .col-md-3 
+    {
+        width: 50%;
+        height: 30%;
+    }
+    .galary img
+    {
+        width: 30%;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+     .what-made ul
+    {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) /*medium screen*/
+{
+    .nav-bar ul
+    {
+        display: none;
+    }
+    .slide-show h3:after
+    {
+        margin-left: 10%;
+    }
+    .what-do h3:after
+    {
+        margin-left: 47%;
+    }
+    .slide-show img
+    {
+        width: 100%;
+    }
+     .what-made ul
+    {
+        width: 60%;
+        margin-left: 23%;
+    }
+    .galary img
+    {
+        width: 30%;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+@media (min-width:1200px) /*large screen*/
+{
+    .lines
+    {
+        display: none;
+    }
+}
+
+                         /*end media quary*/
